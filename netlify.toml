@@ -1,24 +1,4 @@
 [[redirects]]
-  from = "/images/*/240"
-  to = "/images/:splat/240.png"
-  status = 200
-
-[[redirects]]
-  from = "/images/*/300"
-  to = "/images/:splat/300.png"
-  status = 200
-
-[[redirects]]
-  from = "/images/*/460"
-  to = "/images/:splat/460.png"
-  status = 200
-
-[[redirects]]
-  from = "/images/*/700"
-  to = "/images/:splat/700.png"
-  status = 200
-
-[[redirects]]
-  from = "/images/*/1040"
-  to = "/images/:splat/1040.png"
+  from = "/images/:size"
+  to = "/images/:size.png"
   status = 200
